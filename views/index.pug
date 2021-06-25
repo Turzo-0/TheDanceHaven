@@ -1,0 +1,61 @@
+//- index.pug
+doctype html
+html
+  head
+    title The Dance Haven
+    style
+      include ../static/style.css
+  body 
+    nav#navbar 
+        ul 
+            div#logo 
+                 img(src="/static/Dance logo.png")
+                 |  TDH
+            li #[a(href ="/") Home]
+            li #[a(href ="/") About] 
+            li #[a(href ="/") Services]
+            li #[a(href ="/") Class Info]
+            li #[a(href ="/") Contact Us]
+    
+    section#introSection 
+      div.welcome  Welcome to The Dance Haven  
+      div#small Expose Your feelings by your Expression!!
+    section#missionSection 
+       h2 Our Mission  
+       div.card 
+          h3 Dance Perfection
+          div.card-box
+              div.card-img
+                  img(src="/static/Dance move3.png")
+              div.card-content 
+                  div.write Dance like you never gonna stop  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ab nobis officiis odio quaerat a, tenetur dolor unde libero aliquid. Sed ipsum soluta delectus numquam.   
+       div.card 
+             h3 Expert Analysis
+             div.card-box
+                 div.card-img
+                     img(src="/static/Dance move2.png")
+                 div.card-content 
+                     div.write  Dance like you never gonna stop  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ab nobis officiis odio quaerat a, tenetur dolor unde libero aliquid. Sed ipsum soluta delectus numquam.   
+           
+       div.card 
+             h3 Stage Perfomance
+             div.card-box
+                 div.card-img
+                     img(src="/static/Dance move1.png")
+                 div.card-content 
+                    div.write  Dance like you never gonna stop  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ab nobis officiis odio quaerat a, tenetur dolor unde libero aliquid. Sed ipsum soluta delectus numquam.   
+         
+    section#sponserSection 
+      h3 Our Sponsors
+      div#sponsers
+           img(src="/static/1.png", alt="Sponser image", class="spImage")
+           img(src="/static/2.png", alt="Sponser image", class="spImage")
+           img(src="/static/3.png", alt="Sponser image", class="spImage")
+           img(src="/static/4.png", alt="Sponser image", class="spImage")
+           img(src="/static/5.png", alt="Sponser image", class="spImage")
+    footer#footer 
+        |    Copyright Ⓒ 2021 TheDanceHaven.com | All rights reserved
+
+         
+    script
+      include ../static/index.js

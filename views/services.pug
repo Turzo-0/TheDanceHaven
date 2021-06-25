@@ -1,0 +1,54 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/styleServices.css
+
+
+block content 
+  div.container 
+    h1  Our Services 
+    div.container2 
+       <h2>Dance Catagories</h2>
+       <ul class="ulClass">
+           li.liClass Ballroom Dance
+           li.liClass Bharatanatyam 
+           li.liClass Folk Dance
+           li.liClass Tap Dance
+           li.liClass Hip Hop Dance
+           li.liClass Irish Dance
+       </ul>
+       <h2>We participate</h2>
+       <ul class="ulClass">
+           li.liClass Dance Bangla Dance Compettion, India
+           li.liClass Bharatanatyam Compettion, Bangladesh
+           li.liClass Folk Dance Compettion, India
+           li.liClass National Dance festival, Bangladesh
+           li.liClass International Dance Festival
+           li.liClass Dhaka Hip Hop Compettion 
+           li.liClass Youtube Fanfest Dance Compettion 
+           li.liClass Pohela Boishak Dance Celebration, Bangladesh
+       </ul>
+
+    div.container3   
+       <h2>We Provide</h2>
+       <ul class="ulClass">
+          li.liClass international Dance Scholarship For Higher Studies
+          li.liClass National Level Scolarship
+          li.liClass Dance Scolarship, India
+          li.liClass Dance Scolarship, Bangladesh
+         
+       </ul>
+       <h2>Our Sponsers Provides</h2>
+       <ul class="ulClass">
+           li.liClass red-apple best Dance performer Award of the year!
+           li.liClass Greenpeace Dance Star Award!
+           li.liClass Best Dancer of Dance Haven Award and Scholarship!
+         
+       </ul>
+
+           
